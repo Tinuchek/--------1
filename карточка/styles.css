@@ -1,0 +1,49 @@
+.gl{
+    display: flex;
+}
+.cart1{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.cart2{
+    margin: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.qq1{
+    border-color: rgb(255, 0, 0);
+}
+.w{
+    
+    border-color: black;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ay{
+    color: red;
+}
+.ay1{
+    color: red;
+}
+.ay2{
+    color: red;
+}
+.ay3{
+    color: red;
+}
+.ay4{
+    color: red;
+}
+
+.qqq1{
+    background-color: rgb(252, 231, 231);
+}
+.qs{
+    background-color: rgb(255, 255, 255);
+}

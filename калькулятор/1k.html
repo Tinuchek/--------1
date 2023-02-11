@@ -1,0 +1,130 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="body">
+        <div class="results">
+          <div id="result"></div>
+          <div id="expression"></div>
+        </div>
+        <div class="numbers">
+          <button class="number" id="7">7</button>
+          <button class="number" id="8">8</button>
+          <button class="number" id="9">9</button>
+          
+          <button class="number" id="4">4</button>
+          <button class="number" id="5">5</button>
+          <button class="number" id="6">6</button>
+          
+          <button class="number" id="1">1</button>
+          <button class="number" id="2">2</button>
+          <button class="number" id="3">3</button>
+          
+          <button class="number" id="0">0</button>
+          <button class="number" id=".">.</button>
+          <button class="equals" id="=">=</button>
+        </div>
+        
+        <div class="operations">
+          <button class="operation" id="*">×</button>
+          <button class="operation" id="/">÷</button>
+          <button class="operation" id="+">+</button>
+          <button class="operation" id="-">-</button>
+        </div>
+        <div class="clears">
+          <button id="clear">AC</button>
+          <button id="ce">CE</button>
+        </div>
+      </div>
+    <script src="./1k.js">
+       
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+.body {
+  width: 350px;
+  border: 1px solid;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 5px 20px;
+  background: #19c4f8;
+  border-radius: 10px;
+}
+.results {
+  width: 92.3%;
+  margin: 20px auto;
+  font-family: 'Audiowide', cursive;
+  text-align: right;
+}
+#expression, #result {
+  background: #fafafa;
+  border: 1px solid rgb(0, 26, 255);
+  border-radius: 4px;
+  padding-right: 5px;
+}
+#result {
+  height: 50px;
+  font-size: 2em;
+  border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#expression {
+  height: 20px;
+  border-top: none;
+  color: #02b6ec;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  overflow: hidden;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.operations, .clears {
+  display: flex;
+  flex-direction: column;
+}
+.operations * {
+  font-size: 1.5em;
+}
+
+.clears * {
+  background: #093ca8;
+  color: white;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  outline: none;
+  font-family: 'Audiowide', cursive;
+  -webkit-box-shadow: 0px 3px 0px 0px #ff0000;
+  -moz-box-shadow: 0px 3px 0px 0px #ff0000;
+  box-shadow: 0px 3px 0px 0px #057aff;
+}
+button:active {
+  transform: translateY(2px);
+}
+
+.number, .operation, .equals {
+  background: #55afdb;
+  color: white;
+}
+    </style>
+    </input>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.a{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 138, 180);
+}
+body{
+    margin: 0;
+}
+.a1{
+    margin: 20px;
+    font-size: 30px;
+}
+.b{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

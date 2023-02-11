@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html land = 'en'>
+    <head>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            // alert(num(sfrmp))
+            function season_event(e){
+                wi = 'За окном падал белый снег'
+                sp = 'Птицы пели прекрасные песни'
+                sm = 'Солнце светило ярче чем когда-либо'
+                au = 'Урожай был невероятен'
+                // let e = Number(prompt('Введите месяц вашего рождения(число месяца)'))
+                if (e < 3 || e == 12 ){
+                    if (e == 1){
+                        alert(`Вы родились в январе. ${wi}`)
+                    }
+                    else if (e == 2){
+                        alert(`Вы родились в феврале. ${wi}`)
+                    }
+                    else if (e == 12){
+                        alert(`Вы родились в декабре. ${wi}`)
+                    }
+                }
+                else if ( e > 2 && e < 6 ){
+                    if (e == 3){
+                        alert(`Вы родились в март. ${sp}`)
+                    }
+                    else if (e == 4){
+                        alert(`Вы родились в апрель. ${sp}`)
+                    }
+                    else if (e == 5){
+                        alert(`Вы родились в май. ${sp}`)
+                    }
+                }
+                else if (e > 5 && e < 9 ){
+                    if (e == 6){
+                        alert(`Вы родились в июнь. ${sm}`)
+                    }
+                    else if (e == 7){
+                        alert(`Вы родились в июль. ${sm}`)
+                    }
+                    else if (e == 8){
+                        alert(`Вы родились в август. ${sm}`)
+                    }
+                }
+                else if (e > 8 && e < 12){
+                    if (e == 9){
+                        alert(`Вы родились в сентябрь. ${au}`)
+                    }
+                    else if (e == 10){
+                        alert(`Вы родились в октябрь. ${au}`)
+                    }
+                    else if (e == 11){
+                        alert(`Вы родились в ноябрь. ${au}`)
+                    }
+                }
+                else {
+                    alert(`Введите число от 1 до 12`)
+                }
+                
+            }
+            let e = Number(prompt('Введите месяц вашего рождения(число месяца)'))
+                season_event(e)
+        </script>
+    </body>
+</html>
